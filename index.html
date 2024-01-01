@@ -12,17 +12,24 @@
 <body>
     <div class="wrapper">
         <div class="container">
-            <nav class="navbar">
-                <label class="logo">K&#42928; Virtual</label>
-                <div class="nav-links">
-                    <a href="#">Home</a>
-                    <a href="#">specs</a>
-                    <a href="#">features</a>
-                    <a href="#">reviews</a>
-                    <a href="#">pricing</a>
-                    <button class="login-button">Login</button>
-                </div> 
-            </nav>
+            <header>
+                <nav class="navbar">
+                    <label class="logo">K&#42928; Virtual</label>
+                    <a href="#" class="toggle-btn">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+                    <div class="links">
+                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#">specs</a>
+                        <a class="nav-link" href="#">features</a>
+                        <a class="nav-link" href="#">reviews</a>
+                        <a class="nav-link" href="#">pricing</a>
+                        <button class="login-button">Buy Now</button>
+                    </div> 
+                </nav>
+            </header>
             <div class="hero">
                 <div class="hero-item">
                     <p class="intro">K&#42928; reality is now going virtual</p>
@@ -31,7 +38,7 @@
                     </p>
                     <button class="buy-now">Buy Now</button></button>
                 </div>
-                <div class="hero-item">
+                <div class="hero-image">
                     <img class="image-responsive" src="src/images/product.png" alt="product image">
                 </div>
             </div>
@@ -152,7 +159,7 @@
                         Made with precision to give absolute comfort and great experience. 
                         Get your own Mi today.
                     </p>
-                    <h2>Color</h2>
+                    <h2 class="color-title">Color</h2>
                     <div class="banner-two-colors">
                        <div class="color-one"></div> 
                        <div class="color-two"></div>
@@ -161,16 +168,56 @@
                     <h1 class="banner-two-desc">
                         $299.99
                     </h1>
-                    <p>
+                    <p class="shipping">
                         Free Worldwide Shipping
                         30-day Return Policy
                     </p>
                     <a href="#">
-                        <img src="src/images/amazon.png" alt="">
+                        <img class="amazon" src="src/images/amazon.png" alt="">
                     </a>
+                </div>
+            </div>
+            <div class="subscription">
+                <div class="subscription-content">
+                    <h2 class="subscription-h2">
+                        Subscribe now and get lifetime premium access.
+                    </h2>
+                    <p class="subscription-p">
+                        Just kidding you have to pay every month or every year to get all 
+                        the benefits we mentioned everywhere. Everything comes
+                        at a cost.
+                    </p>
+                    <div class="form-input">
+                        <input class="input-type" type="text">
+                        <button class="input-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-container">
+                <div class="footer-text">
+                    <h2 >K&#42928</h2>
+                    <p>
+                        Cu qui probo malorum saperet. Ne admodum apeirian iracundia usu, 
+                        eam cu agam ludus, eum munere accusam molestie ut.
+                        Alienum percipitur ne est, pri quando iriure ad.
+                    </p>
+                    <p>Copyright &copy; 2023 Kisibo. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-links-one">
+                        <a href="#">About Us</a>
+                        <a href="#">Product Details</a>
+                        <a href="#">Pricing</a>
+                    </div>
+                    <div class="footer-links-one">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">User Agreement</a>
+                        <a href="#">Contacts</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
