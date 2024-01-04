@@ -19,18 +19,16 @@ body {
 header{
     position: fixed;
     top: 0;
-    left: 0;
-    min-height: 80px;
+    left: 0;   
+    height: 80px;
     width: 100%;
-    padding: 0 50px;
+    padding: 20px 80px;
     background-color: #fff;
 }
 header::after {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 .navbar{
-
-    margin: 0 30px;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -83,7 +81,7 @@ header::after {
 .hero{
     display: flex;
     gap: 20px;
-    padding: 20px 0; 
+    padding: 80px 0; 
     justify-content: center;
     height: 100vh-80px !important;
 
@@ -91,8 +89,11 @@ header::after {
 .hero-item {
     flex: 1;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    
+   
+    margin-top: 80px;
+    margin-bottom: 80px;
 
 }
 .hero-image {
@@ -117,6 +118,7 @@ header::after {
 }
 .buy-now {
     border: none;
+    width: max-content;
     font-size: 16px;
     font-weight: 500;
     margin-top: 20px;
@@ -157,7 +159,7 @@ header::after {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     margin-top: 30px;
     margin-bottom: 40px;
 }
@@ -491,7 +493,7 @@ input[type=text]:focus {
     font-size: 14px;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 756px) {
     .wrapper{
         max-width: 420px;
             margin: 0 auto;
@@ -555,7 +557,7 @@ input[type=text]:focus {
     .hero{
         flex-direction: column;
         gap: 2px;
-        margin-top: 80px;
+        margin-top: 20px;
         
     }
     .hero-item{
@@ -628,47 +630,79 @@ input[type=text]:focus {
         max-width: 100%;
         height: auto;
     }
-        .virtual-video {
-            display: flex;
-            background-color: #eceff1;
-            flex-direction: column;
-            gap: 20px;
-        }
-    
-        .virtual-video-container {
-            flex: 1;
-            align-items: center;
-            justify-content: center;
-            margin-left: 0;
-            margin-right: 0;
-        }
-    
-        .virtual-video-h2 {
-            font-size: 30px;
-            font-weight: 500;
-            margin-top: 40px;
-            margin-left: 1px;
-        }
-    
-        .btn-padding {
-            margin-top: 20px;
-            margin-left: 0;
-        }
-    
-        .virtual-video-p {
-            margin-top: 20px;
-            margin-left: 1px;
-        }
-    
-        .virtual-video-container-2 {
-            flex: 1;
-        }
-    
-        .video-frame {
-            display: block;
-            width: 100%;
-            height: auto;
-        }
+    .virtual-video {
+        display: flex;
+        background-color: #eceff1;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .virtual-video-container {
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .virtual-video-h2 {
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 40px;
+        margin-left: 1px;
+    }
+
+    .btn-padding {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .virtual-video-p {
+        margin-top: 20px;
+        margin-left: 1px;
+    }
+
+    .virtual-video-container-2 {
+        flex: 1;
+    }
+
+    .video-frame {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .banner-two{
+        padding: 0 10px;
+    }
+    .subscription{
+        padding: 0 10px;
+    }
+    .subscription-content {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .subscription-h2 {
+        font-size: 28px;
+        font-weight: 300;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .subscription-p {
+        font-size: 14px;
+        font-weight: 200;
+        text-align: center;
+        padding: 10px;
+        margin: 0 10px;
+    }
+    .form-input {
+        width: 350px;
+        position: relative;
+        margin: 20px auto;
+    }
     .footer-container{
         display: flex;
         flex-direction: column;

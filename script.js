@@ -1,3 +1,4 @@
+
 const hamburger = document.querySelector('.toggle-btn');
 const menu = document.querySelector('.links');
 
